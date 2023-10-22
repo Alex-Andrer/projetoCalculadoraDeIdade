@@ -45,7 +45,7 @@ function calculaIdade(){
     const dia = idadeData.getUTCDay();
 
 
-    const resultado = `${ano} anos, ${meses} meses e ${dia} dias.`;
+    const resultado = `${ano} anos <br>${meses} meses <br>${dia} dias`;
 
-    document.getElementById("resultado").textContent = resultado;
+    document.getElementById("resultado").innerHTML = resultado;
   }
