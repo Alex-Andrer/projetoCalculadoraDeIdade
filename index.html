@@ -17,18 +17,25 @@
   <div class="container">
 
     <form>
+      <div class="insercaoDados">
+        <div class="dia">
+          <label for="dia">Dia</label>
+          <input type="text" id="dia" name="dia" placeholder="DD" required>
+          <span id="erroNoDia" class="erro"></span>
+        </div>
 
-      <label for="dia">Dia</label>
-      <input type="text" id="dia" name="dia" placeholder="DD" required>
-      <span id="erroNoDia" class="erro"></span>
+        <div class="mes">
+          <label for="mes">Mês</label>
+          <input type="text" id="mes" name="mes" placeholder="MM" required>
+          <span id="erroNoMes" class="erro"></span>
+        </div>
 
-      <label for="mes">Mês</label>
-      <input type="text" id="mes" name="mes" placeholder="MM" required>
-      <span id="erroNoMes" class="erro"></span>
-
-      <label for="ano">Ano</label>
-      <input type="text" id="ano" name="ano" placeholder="YYYY" required>
-      <span id="erroNoAno" class="erro"></span>
+        <div class="ano">
+          <label for="ano">Ano</label>
+          <input type="text" id="ano" name="ano" placeholder="YYYY" required>
+          <span id="erroNoAno" class="erro"></span>
+        </div>
+      </div>
 
       <button type="button" id="botaoCalcularIdade"><img src="./assets/images/icon-arrow.svg"
           alt="Calcular idade"></button>
@@ -45,9 +52,9 @@
 
   </div>
 
-  <footer class="cabecalho">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
-      Coded by <a href="https://github.com/Alex-Andrer" target="_blank">Alexandre Dantas</a>.
+  <footer class="rodape">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Alex-Andrer" target="_blank">Alexandre Dantas</a>.
   </footer>
 
   <script src="app.js" defer></script>

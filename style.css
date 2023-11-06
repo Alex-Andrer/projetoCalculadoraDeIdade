@@ -1,9 +1,61 @@
-.body{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100vw;
     margin: 0;
+
+    font-family: "Poppins", sans-serif;
 }
 
-.erro{
+/* Estilize o contêiner principal */
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 80px 10px;
+    background-color: #f5f5f5;
+    width: 600px;
+}
+
+/* Estilize os campos de entrada, botão e texto do resultado */
+input,
+button,
+#resultado {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.insercaoDados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dia,
+.mes,
+.ano {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+#resultado {
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+input {
+    width: 70px;
+    height: 35px;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.erro {
     color: red;
 }
