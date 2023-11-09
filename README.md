@@ -4,4 +4,5 @@
 <p>Tecnologias usadas: <br>HTML, CSS e JavaScript e ChatGPT(consultoria e ideias)</p>
 <br>
 <br>
-<p>Projeto em desenvolvimento...</p>
+![exemplo](./design/exemplo1)
+![exemplo](./design/exemplo2)
