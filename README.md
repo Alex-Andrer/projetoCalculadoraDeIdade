@@ -4,5 +4,5 @@
 <p>Tecnologias usadas: <br>HTML, CSS e JavaScript e ChatGPT(consultoria e ideias)</p>
 <br>
 <br>
-[![exemplo](https://raw.githubusercontent.com/Alex-Andrer/projetoCalculadoraDeIdade/main/design/exemplo1.png)]
-[![exemplo](https://raw.githubusercontent.com/Alex-Andrer/projetoCalculadoraDeIdade/main/design/exemplo2.png)]
+<img src = https://raw.githubusercontent.com/Alex-Andrer/projetoCalculadoraDeIdade/main/design/exemplo1.png>
+<img src = https://raw.githubusercontent.com/Alex-Andrer/projetoCalculadoraDeIdade/main/design/exemplo2.png>
