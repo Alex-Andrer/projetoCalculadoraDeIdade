@@ -89,7 +89,6 @@ const calculaIdade = () => {
 
 
   //mostra na tela
-  let resultado = `${ano} anos <br>${meses} meses <br>${dia} dias`;
-
-  document.getElementById("resultado").innerHTML = resultado;
+  let resultado = `<span>${ano}</span> anos <br><span>${meses}</span> meses <br><span>${dia}</span> dias`;
+  document.querySelector(".resultado").innerHTML = resultado;
 }
